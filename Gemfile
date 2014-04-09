@@ -31,6 +31,8 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'stripe'
+
 # Could be usefull
 # gem 'bcrypt', '~> 3.1.7'       # Use ActiveModel has_secure_password
 # gem 'unicorn'                  # Use unicorn as the app server
